@@ -90,7 +90,7 @@
     body {
         background-image:url("_media/aurora_right.svg");
         background-repeat: repeat-y;
-	background-position: right top;
+	      background-position: right top;
     }
   </style>
 </head>
@@ -98,26 +98,6 @@
   <div id="app"></div>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
   <script src="//unpkg.com/docsify-edit-on-github/index.js"></script>
-  <script>
-    //2. Docsify Configuration
-    window.$docsify = {
-      name: 'Cloud Analytics', //shows on the top left of the page
-      repo: 'https://github.ibm.com/managed-security/cloud-analytics',
-      homepage: 'overview.md',
-      loadSidebar: true,
-      auto2top: true,
-      maxLevel: 2,
-      subMaxLevel: 2,
-      search: 'auto',
-      formatUpdated: '{MM}/{DD} {HH}:{mm}',
-      plugins: [
-            EditOnGithubPlugin.create(
-                    'https://github.ibm.com/managed-security/cloud-analytics/tree/master/docs/'
-            )
-    
-      ],
-    }
-  </script>
 
   <!-- 3. Docsify Plugins -->
   <script src="//unpkg.com/prismjs/components/prism-java.js"></script>
