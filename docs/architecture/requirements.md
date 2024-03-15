@@ -44,6 +44,11 @@ A Cloud Analytics sub-system for the X-Force Protection Platform is designed to 
 | 8. | Isolated | Isolate customers from each other | The system must be architected to serve multiple customers while isolating customer users from each other, such that users who belong to different customers do not share or see each other's data. Isolation in the system should also shield customers operationally from a single failure in one customer's instance, due to a sudden increased workload or traffic spike in another. |  
 | 9. | Security | Protect the system from intrusion and unauthorized use | The system must ensure that all data inside the platform, or its part, will be defended from attacks and unauthorized access. |  
 
+
+# Future
+
+<img src="_media/future.png" alt="Future System Context" style="display: block; margin-left: auto; margin-right: auto; height: 80%; width: 80%; padding-top: 25px; padding-bottom: 25px;"/>
+
 <!-- Do not edit -->
 <hr/>
 <footer>
