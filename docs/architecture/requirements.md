@@ -1,6 +1,6 @@
 # Requirements
 
-## Functional Requirements
+## Functional
 
 > Specify the *capabilities* needed by users of the system to fulfill their job. Functional requirements answer  the question of *what* the solution's sponsor needs, but not *how* it is achieved.
 
@@ -26,7 +26,7 @@ Software engineers should be able to embed dashboards, dashboard elements (e.g.,
 <span>Page Last Updated: {docsify-updated}</span>
 </footer>
 
-## Non-Functional Requirements
+## Non-Functional
 
 > This artifact is used to describe the *quality attributes of the system* and the *constraints* which the design options will be required to satisfy in order to deliver the business goals, objectives or capabilities. It is used to negotiate between, and select from, competing design options. It is used to assess the sizing, cost, and viability of the proposed system. It is a key consideration for understanding service level requirements for operational management of the solution. For more information see the [Non-Functional Requirements](https://ibm.biz/BdzYnV) work product from the UMF. 
 

@@ -2,8 +2,6 @@
 - Architecture
     - [Business Driver](/architecture/business-driver)
     - [Requirements](/architecture/requirements)
-      - [Functional](/architecture/functional-requirements)
-      - [Non-Functional](/architecture/non-functional-requirements)
       - [Future](/architecture/future-requirements)
     - [Architecture Overview](/architecture/architecture-overview)
     - [System Context](/architecture/system-context)
