@@ -3,6 +3,7 @@
     - [Business Driver](/architecture/business-driver)
     - [Requirements](/architecture/requirements)
     - [Architecture Overview](/architecture/architecture-overview)
+        - [Data Acquisition](/developer/data-acquisition)
     - [System Context](/architecture/system-context)
     - [Component Model](/architecture/component-model)
     - [Project Plan](/architecture/project-plan)
@@ -17,6 +18,5 @@
     - [Prometheus](/developer/prometheus)
     - [Grafana](/developer/grafana)
     - [Mockups](/developer/mockups)
-    - [Data Acquisition](/developer/data-acquisition)
 - POC
     - [Basic Integration](/poc/grafana-basic-integration)
