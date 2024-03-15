@@ -1,4 +1,4 @@
-# System Context (ART 0651)
+# System Context
   
 > For more information see [System Context](https://en.wikipedia.org/wiki/System_context_diagram) 
 

@@ -20,15 +20,9 @@ Software engineers, device management personnel, and operations staff should be 
 
 Software engineers should be able to embed dashboards, dashboard elements (e.g., panels), into a web application or mobile application, as an interactive UI element that has a connection to a data source that is updated dynamically or in real-time with the state of a managed device or cloud-hosted customer asset. 
 
-<!-- Do not edit -->
-<hr/>
-<footer>
-<span>Page Last Updated: {docsify-updated}</span>
-</footer>
-
 ## Non-Functional
 
-> This artifact is used to describe the *quality attributes of the system* and the *constraints* which the design options will be required to satisfy in order to deliver the business goals, objectives or capabilities. It is used to negotiate between, and select from, competing design options. It is used to assess the sizing, cost, and viability of the proposed system. It is a key consideration for understanding service level requirements for operational management of the solution. For more information see the [Non-Functional Requirements](https://ibm.biz/BdzYnV) work product from the UMF. 
+> This artifact is used to describe the *quality attributes of the system* and the *constraints* which the design options will be required to satisfy in order to deliver the business goals, objectives or capabilities. It is used to negotiate between, and select from, competing design options. It is used to assess the sizing, cost, and viability of the proposed system. It is a key consideration for understanding service level requirements for operational management of the solution. 
 
 A Cloud Analytics sub-system for the X-Force Protection Platform is designed to meet the following non-functional requirements (NFR): 
 
