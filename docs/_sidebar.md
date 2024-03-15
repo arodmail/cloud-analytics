@@ -6,7 +6,6 @@
     - [System Context](/architecture/system-context)
     - [Component Model](/architecture/component-model)
     - [Project Plan](/architecture/project-plan)
-    - [Test Plan](/architecture/test-plan)
     - [RAID Log](/architecture/raid)
     - [Threat Model](/architecture/threat-model)
     - [Architectural Decisions](/architecture/architectural-decisions)

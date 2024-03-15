@@ -11,9 +11,9 @@ The Cloud Analytics architecture is open to acquiring data through multiple prot
 | 3 | SSH | 22 | Yes | Yes | Yes
 | 4 | SNMPv1/2 | 161 | No | No | No
 
-Note: See [Security Concerns](developer/data-acquisition?id=security-concerns) below for other reasons SNMPv1/2 is not supported. Also see [RAID Log (ART 0350)](architecture/raid) for High Risk identification of SNMP use for device monitoring purposes. 
+Note: See [Security Concerns](developer/data-acquisition?id=security-concerns) below for other reasons SNMPv1/2 is not supported. Also see [RAID Log](architecture/raid) for High Risk identification of SNMP use in device monitoring purposes. 
 
-## 1. HTTPS
+### 1. HTTPS
 
 HTTPS (HTTP over TLS), is widely supported for its use of an added encryption layer of SSL/TLS to protect web traffic. This support includes encryption of a request URL, query parameters, HTTP headers, and cookies, which may be used to identify a user. HTTPS increases the security posture of the solution through:
 
@@ -39,13 +39,13 @@ A Prometheus Exporter is a sensor that:
 1. *Endpoints:* span a very broad range of hardware and software across a wide spectrum of device types. 
 2. *Time-series Database:* Prometheus is a free, OSS time-series database developed as an alternative to StatsD and Graphite based solutions. Built to provide a multi-dimensional data model, operational simplicity, scalable data collection, and a powerful query language, PromQL.
 
-## 2. SNMPv3
+### 2. SNMPv3
 
 ### SNMP Considerations
 
 Simple Network Management Protocol (SNMP), widely used for network monitoring, exposes data in the form of variables in a MIB (Management Information Base) on systems where SNMP is running which can be queried remotely.
 
-### SNMP Exporter
+#### SNMP Exporter
 
 To collect information from SNMP for use by the Prometheus monitoring system, a Prometheus SNMP Exporter exists for this purpose:
 
@@ -53,7 +53,7 @@ https://github.com/prometheus/snmp_exporter
 
 This exporter can be installed in the same manner that the Node Exporter is installed and configured on a monitored device. 
 
-### SNMP Exporter Proxy
+#### SNMP Exporter Proxy
 
 In some cases, a Node Exporter cannot be installed on the device to monitor. Reasons for this limitation  include:
 
@@ -71,7 +71,7 @@ For example, similar restrictions are known to be in place for Guardium devices 
 
 In this model, SNMP proxy leverages out-of-box monitoring services that are expected to be enabled and running on the device, which is the case for most RHEL and other Linux systems. 
 
-## 3. SSH
+### 3. SSH
 
 SSH provides a secure channel over a network through a client–server architecture that connects an SSH client to an SSH server. Encryption used by SSH provides confidentiality and ensures integrity of data transmitted over an unsecured network. 
 
