@@ -1,6 +1,6 @@
 # RAID Log
 
-> The purpose of RAID (**R**isks, **A**ssumptions, **I**ssues, **D**ependencies) is to capture the important concerns of the project and manage them proactively.  Documenting these concerns will allow important considerations from being overlooked.  It also avoids projects being derailed by unexpected situations and helps meet commitments.  The RAID log is described in the [Viability Assessment](https://ibm.biz/BdzY8x) work product in [IBM MethodWeb](https://ibm.biz/BdzYnv).
+> The purpose of RAID (**R**isks, **A**ssumptions, **I**ssues, **D**ependencies) is to capture the important concerns of the project and manage them proactively.  Documenting these concerns will allow important considerations from being overlooked.  It also avoids projects being derailed by unexpected situations and helps meet commitments. 
 
 <BR><BR>
 

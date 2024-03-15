@@ -1,6 +1,6 @@
 # Component Model
 
-> The purpose of the component model is to help organize projects, manage the complexity of the solution, and ensure that all architecturally requirements have been addressed. It helps developers design and implement the solution and understand the big picture of the system design. For more information see the [Component Model](https://ibm.biz/Bd2wTj) work product in [IBM MethodWeb](https://ibm.biz/BdzYnv).
+> The purpose of the component model is to help organize projects, manage the complexity of the solution, and ensure that all architectural requirements have been addressed. It helps developers design and implement the solution and understand the big picture of the system design. For more information see the [Component Based Software Engineering](https://en.wikipedia.org/wiki/Component-based_software_engineering).
 
 ## 1. Grafana Gateway Design
 

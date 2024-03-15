@@ -1,6 +1,6 @@
 # Operational Management
 
-> For more information see the [Process Defintions](https://ibm.biz/BdzY8m) work product in [IBM MethodWeb](https://ibm.biz/BdzYnv).
+> For more information see the [Cloud Management](https://en.wikipedia.org/wiki/Cloud_management).
 
 
 ## On-Boarding Flow

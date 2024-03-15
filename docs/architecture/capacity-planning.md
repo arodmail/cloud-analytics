@@ -1,6 +1,6 @@
 # Capacity Planning
 
-> The System Capacity Plan documents the projections of system capacity requirements for servers, disk, processing, memory and network requirements and the corresponding detail worksheets that include the document the details, formulae, and assumptions on which the estimates were based. For more information see the [Capacity Planning](https://ibm.biz/BdzZhy) work product in [IBM MethodHub](https://ibm.biz/BdzY8S).
+> The System Capacity Plan documents the projections of system capacity requirements for servers, disk, processing, memory and network requirements and the corresponding detail worksheets that include the document the details, formulae, and assumptions on which the estimates were based. For more information see the [Capacity Planning](https://en.wikipedia.org/wiki/Capacity_planning).
 
 ### Prometheus
 

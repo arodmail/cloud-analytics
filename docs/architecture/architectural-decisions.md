@@ -1,6 +1,6 @@
 # Architectural Decisions
 
-> For more information see the [Architectural Decision](https://ibm.biz/BdzYnS) work product in [IBM MethodWeb](https://ibm.biz/BdzYnv).
+> For more information see [Architectural Decision](https://en.wikipedia.org/wiki/Architectural_decision).
 
 | Decision | Rationale | Implication |
 | -------- | --------- | ----------- |
