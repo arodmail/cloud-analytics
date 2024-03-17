@@ -18,6 +18,7 @@ Why use a Grafana Gateway? Grafana is hosted per customer in an OpenShift cluste
 - Perform detailed logging for analytics and monitoring purposes.
 - A response from a single call for a Grafana dashboard is aggregated from multiple, distinct backend calls.
 - As new Grafana instances are added, and others are shut down, applications going through the gateway will still find all Grafana resources in the same place.
+- Use a Grafana backend plugin that handles rendering panels to PNGs using a headless browser (Chromium).
 
 ### 1.3 Request Processing 
 
