@@ -26,7 +26,7 @@ As the technologies, platforms, software, and vendors that come under management
 
 #### Reduce Costs
 
-The integration of the open-source software into the platform is also expected to completely eliminate front-end web application development costs associated with health metrics visualization and dashboarding, as Grafana provides a kind of "vast gallery" of dashboards and visualizations for data analytics that can be leveraged easily through point-and-click.
+The integration of the open-source software into the platform is also expected to completely eliminate front-end web application development costs associated with health metrics visualization and dashboarding, as Grafana provides a vast gallery of dashboards and visualizations for data analytics that can be leveraged easily through point-and-click.
 
 ### 1. Features & Functionality
 
