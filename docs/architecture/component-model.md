@@ -18,7 +18,6 @@ Why use a Grafana Gateway? Grafana is hosted per customer in an OpenShift cluste
 - Perform detailed logging for analytics and monitoring purposes.
 - A response from a single call for a Grafana dashboard is aggregated from multiple, distinct backend calls.
 - As new Grafana instances are added, and others are shut down, applications going through the gateway will still find all Grafana resources in the same place.
-- Use a Grafana backend plugin that handles rendering panels to PNGs using a headless browser (Chromium).
 
 ### 1.3 Request Processing 
 
@@ -29,7 +28,8 @@ The Grafana Gateway screens all requests for Grafana panels by performing the fo
 3. Resolves a Device IP from a Machine Host Name OR resolves a Device IP from a Device ID (using [Device API](https://services.sec.ibm.com/api_explorer/swagger-ui/?url=https://services.sec.ibm.com/api_explorer/swagger/device_ms))
 4. Assembles a full URL to a Grafana PNG panel 
 5. Sends an HTTP GET request to a customer's Grafana instance for a panel PNG
-6. Returns the PNG image for a Grafana panel (Mime Type = image/png)
+6. Grafana uses a backend plugin that handles rendering panels to PNGs using a headless browser (Chromium).
+7. Returns the PNG image for a Grafana panel (Mime Type = image/png)
 
 ### 1.4 Sample Request (Single Panel)
 
